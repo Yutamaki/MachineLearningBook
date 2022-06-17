@@ -32,7 +32,9 @@ def ParameterEstimation(Hyperparameter):
     return w
 #回帰曲線
 def Regressioncurve(w,x):
-    y=w[0] + w[1] * x + w[2] * (x ** 2) + w[3] * (x ** 3) + w[4] * (x ** 4) + w[5] * (x ** 5) + w[6] * (x ** 6) + w[7] * (x ** 7) + w[8] * (x ** 8) + w[9] * (x ** 9) 
+    y=w[0] + w[1] * x + w[2] * (x ** 2) + w[3] * (x ** 3) 
+  　　\+ w[4] * (x ** 4) + w[5] * (x ** 5) + w[6] * (x ** 6) 
+  　\　+ w[7] * (x ** 7) + w[8] * (x ** 8) + w[9] * (x ** 9) 
     return y
 
 
